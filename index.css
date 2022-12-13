@@ -15,11 +15,12 @@ header{
     padding-top: 3%;
 }
 .opcoes{
+    background-color: #3263AF;
     padding-left: 20%;
     padding-top: 3%;
     letter-spacing: 20px;
-    background-color: #3263AF;
     opacity: 80%
+    
 }
 .btn{
     width: 120px;
@@ -52,11 +53,10 @@ header{
 }
 .logomenu{
     width: 290px;
+    padding-top: 1%;
     padding-left: 150px;
     padding-bottom: 1%;
-    background-color: #3263AF;
-    opacity: 80%
-
+    background-color: #3263AF;''
 }
 
 .home{
