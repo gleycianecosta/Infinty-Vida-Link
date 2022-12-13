@@ -1,209 +1,193 @@
-*{
-    margin: 0 ;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
+    margin: 0%;
+    padding: 0%;
+    size: cover;
+}
+.div1{
     background-image: url(./assets/fundo1cortado.png);
-    background-position: top center;
-    background-size: 100% auto;
     background-repeat: no-repeat;
-} 
-
-header{
-    padding-top: 3%;
+    background-size: 100% auto;
+    width: 100vw;
+    height: 100vh;
 }
-.opcoes{
-    background-color: #3263AF;
-    padding-left: 20%;
-    padding-top: 3%;
-    letter-spacing: 20px;
-    opacity: 80%
-    
-}
-.btn{
-    width: 120px;
-    height: ;
-    color: white;
-    background-color: #3263AF;
-    border: none;
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    font-family: DMSans-Regular;
-}
-
-.btnClientes{
-    width: 200px;
-    height: ;
-    color: white;
-    background-color: #3263AF;
-    border: none;
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    font-family: DMSans-Regular;
-
-}
-.menu{
-    background-color: #3263AF;
-    opacity: 80%;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 0,8%;
-}
-.logomenu{
-    width: 290px;
-    padding-top: 1%;
-    padding-left: 150px;
-    padding-bottom: 1%;
-    background-color: #3263AF;''
-}
-
-.home{
-    display: flex;
-    padding-top: 30%;
-    padding-bottom: 15%;
-    padding-left: 10%;
-    color: white;
-    font-size: 30px;
-    font-family: DMSans-Regular;
-
-}
-.seta{
-    padding-left: 50%;
-} 
-
-.container{
-    background-image: url(./assets/fundo2.png);
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    padding-top: 0%;
-    padding-bottom: 10%;
-}
-.imagem1{
-    padding-top: 10%;
-    padding-right: 10%;
-}
-.about{
-    background-color: #3263AF;
-    width: 40%;
-    height: 50%;
-    color: white;
-    text-aling: center;
-    opacity: 80%;
-}
-.sobre{
-    color: black;
-    padding-top: 5%;
-    padding-bottom: 10%;
-}
-.falec{
-    width: 30%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: white;
-    border: none;
-    font-size: 150%;
-}
-.nossosClientes{
-    background-color: #3263AF;
-    opacity: 80%;
-    background-image: url(./assets/fundo2.png);
-}
-.textnossosclientes{
-    padding-top: 2%;
-    text-align: center;
-    font-size: 200%;
-}
-.icones{
-    display: flex;
+.tab_navigation{
     padding-top: 5%;
 }
-
-.iconessobre{
-    padding-left: 8%;
-    text-align: center;
-    font-size: 180%;
-}
-.pessoas{
-    padding-top: 20%;
-}
-
-.commodities{
-    background: #222222;
-    width: 100%;
-}
-.container-faleconosco{
-    background-image: url(./assets/Sem\ nome\ \(1080\ ×\ 1920\ px\)\ \(1000\ ×\ 1000\ px\)\ \(800\ ×\ 800\ px\).png);
+.tab_navigation1{
+    background-color: #3263AF;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: normal;
     align-items: normal;
     align-content: normal;
-    width: 100%;
-    height: 100%;
-    padding-top: 5%;
+    opacity: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-left: 5%;
-    padding-bottom: 5%;
-}
-.telacinco{
-    background-color: #3263AF;
-    width: 40%;
-    height: 60%;
-    padding-top: 3%;
-    color: white;
-    text-align: left;
-    justify-content: center;   
-    
-}
-.faleconosco{
-    font-size: 300%;
-    padding-left: 9%;
-}
-input {
-    border: white 3px solid;
-    border-radius: 7%;
-}
-form{
-    padding-bottom: 5%;
-    padding-left: 10%;
 }
 
-.canal{
-    padding-left: 10%;
-}
-.dados{
-    width: 40%;
-    padding-top: 2%;
-    padding-left: 2%;
+.menu{
     background-color: #3263AF;
-}
-
-input::placeholder {
-    color: white;
+    border: none;
+    color:white;
     font-size: 150%;
-  }
-.redes{
-    padding-left: 20%;
+    padding-left:5%;
     
 }
 
-.redes img{
-    width: 23%;
+#menusobre {
+    margin-left: 30%;
+}
+.textoseta {
+    padding-top: 23%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+}
+#seta{
+    padding-left: 40%;
+    width: 10%;
+    
+}
+.textoseta h1{
+    color: white;
+    font-family: 'Lato';
+    font-size: 500%;
+    word-spacing: 2;
+}
+.textosobre h1{
+    color: white;
+    font-size: 300%;
+    margin-top: 3%;
+    font-family: 'Repo-bold';
+} 
+.div2{
+    background-image: url(./assets/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: 130% auto;
+    width: 100vw;
+    height: 120vh;
+}
+.div22{
+    padding-top: 5%; 
+}
+.div2-icones{
+    background-color: #3263AF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding-left: 8%;
+}
+#icones{
+    padding-left: 10%;
+    text-align: center;
+    color: white;
+}
+#iconespessoas{
+    padding-left: 8%;
+    text-align: center;
+    color: white;
+    padding-top: 2.5%;
+}
+
+#icones h1{
+    font-size: 300%;
+}
+
+#icones h3 {
+    font-size: 200%;
+}
+#iconespessoas h1{
+    padding-top: 4%;
+    font-size: 300%;
+}
+#iconespessoas h3{
+    font-size: 200%;
+    border-top: 0%;
+}
+.sobreinfinity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding-top: 7%;
+}
+.sobreinfinity p{
+    text-align: left;
+    line-height: 150%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Lato';
+    font-size: 120%;
+
+}
+#fotosobre{
+    padding-top: 3%;
+    padding-right: 2%;
+    height: 30%;
+}
+.textosobre{
+    background-color: #3263AF;
+    height: 43%;
+    opacity: 80%;
+    color: black;
+    max-width: 655px;
+    padding-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 4%;
+}
+
+.textosobre h1{
+    font-family: 'Lato';
     padding-left: 5%;
 }
 
-.falecc{
-    width: 180%;
-    height: 80%;
+.FaleConosco{
+     padding-left: 5%;
+}
+.btnFaleConosco{
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: white;
+    width: 40%;
+    height: 80%;
     border: none;
-    font-size: 100%;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 170%;
+}
+.div3{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100vw;
+    height: 100vh;
+}
+.div4{
+    background-image: url(./assets/Sem\ nome\ \(1080\ ×\ 1920\ px\)\ \(1000\ ×\ 1000\ px\)\ \(800\ ×\ 800\ px\).png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100vw;
+    height: 70vh;
+}
+.azul{
+    background-color: #3263AF;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    width: 30%;
+    height: 42%;
 }
 .botao-redes{
     display: flex;
@@ -212,36 +196,68 @@ input::placeholder {
     justify-content: normal;
     align-items: normal;
     align-content: normal;
+    padding-top: 19%;
+    padding-bottom: 1%;
 
 }
-
-.fotos{
-    padding-left: 50% ;
-    width: 100%;
-}
-footer{
-    background-color: black;
+.azul h1{
+    margin: auto;
+    padding-bottom: 3%;
     color: white;
-    padding-bottom: 2%;
+    font-family: 'Lato';
+    font-size: 400%;
+    font-weight: bold;
+}
+.dados{
+    background-color: #3263AF;
+    border: white 2px solid;
+    width: 70%;
+    height: 100%;
+    
+}
+input{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-left: 1%;
+    border: 5px solid #1C6EA4;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 150%;
+  }
+.contatar{
+    width: 100%;
+    height: 90%;
+    border-left: 2%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 130%;
+}
+.redes{
+    width: 40%;
+}
+
+.icones-redes{
+    padding-left: 5%;
+}
+.div4azul{
+    padding-top: 5%;
+    padding-left: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: normal;
     align-items: normal;
     align-content: normal;
-    
 }
-footer img {
-    padding-top: 5%;
-    padding-left: 5%;
-    width: 200px;
+.img3{
+    padding-left: 10%;
+    padding-top: 3%;
 }
-footer h3{
-    color: #3263AF;
-    padding-left: 250%;
-}
-
-footer p{
-    padding-left: 250%;
-   
+.div5{
+    background-color: black;
 }
