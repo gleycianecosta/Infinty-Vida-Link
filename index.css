@@ -168,7 +168,7 @@ body{
     font-size: 170%;
 }
 .div3{
-    background-color: black;
+    background-color: #222222;
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100vw;
@@ -259,5 +259,35 @@ input::placeholder {
     padding-top: 3%;
 }
 .div5{
-    background-color: black;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+}
+#logofooter{
+    width: 20%;
+    padding-left: 20%;
+    padding-top: 7%;
+}
+
+#dados-empresa{
+    padding-left: 12%;
+
+}
+.div5 h3{
+    font-size: 150% ;
+    padding-left: 39%;
+    color: #3263AF;
+    margin-bottom: 0%;
+    font-family: 'Lato';
+}
+.div5 p{
+    margin-top: 0%;
+    font-size: 150%;
+    padding-left: 39%;
+    color: white;
+    font-family: 'Lato';
 }
