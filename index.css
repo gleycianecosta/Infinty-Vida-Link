@@ -39,6 +39,9 @@ body{
 #menusobre {
     margin-left: 30%;
 }
+.menu:hover{
+    cursor: pointer;
+}
 .textoseta {
     padding-top: 23%;
     padding-left: 4%;
@@ -53,6 +56,9 @@ body{
     padding-left: 40%;
     width: 10%;
     
+}
+#seta:hover{
+    cursor: pointer;
 }
 .textoseta h1{
     color: white;
@@ -167,6 +173,9 @@ body{
     font-weight: bold;
     font-size: 170%;
 }
+.btnFaleConosco:hover{
+    cursor: pointer;
+}
 .div3{
     background-color: #222222;
     background-repeat: no-repeat;
@@ -196,7 +205,7 @@ body{
     justify-content: normal;
     align-items: normal;
     align-content: normal;
-    padding-top: 19%;
+    padding-top: 10%;
     padding-bottom: 1%;
 
 }
@@ -218,14 +227,16 @@ body{
 input{
     margin-top: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 1%;
     border: 5px solid #1C6EA4;
     border-radius: 10px;
+    color: white;
 }
 
 input::placeholder {
     color: white;
-    font-size: 150%;
+    font-size: 200%;
   }
 .contatar{
     width: 100%;
@@ -237,13 +248,28 @@ input::placeholder {
     font-weight: bold;
     font-size: 130%;
 }
+.contatar:hover{
+    cursor: pointer;
+}
 .redes{
-    width: 40%;
+    width: 20%;
+    margin-right: 4%;
+}
+
+#facebook{
+    width: 15%;
+}
+#yt{
+    width: 23%;
 }
 
 .icones-redes{
     padding-left: 5%;
 }
+.icones-redes:hover{
+    cursor: pointer;
+}
+
 .div4azul{
     padding-top: 5%;
     padding-left: 10%;
